@@ -1,0 +1,13 @@
+.cd{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    gap: 20px;
+}
+
+.cd_img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}

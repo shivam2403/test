@@ -1,0 +1,54 @@
+.sw{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 35px;
+}
+
+.sw_left{
+
+}
+
+.sw_img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.sw_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sw_name{
+    font-size: 80px;
+}
+
+.sw_genre{
+    font-size: 30px;
+}
+
+.sw_summary{
+    font-size: 30px;
+}
+
+.sw_rating{
+    font-size: 30px;
+}
+
+.sw_book{
+    padding: 10px;
+
+}
+
+.sw_btn{
+    padding: 10px;
+    background-color: black;
+    color: #D81F26;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
